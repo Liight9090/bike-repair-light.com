@@ -1,0 +1,15 @@
+useful website for gradient color:
+1. grabient
+useful website for designed idea:
+1. dribbble
+2. behance
+
+website to import font:
+- google font
+=============
+website for icon:
+1. font awesome
+2. material.io
+
+website learning trick of css
+1.css-tricks.com

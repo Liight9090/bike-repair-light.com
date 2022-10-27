@@ -1,0 +1,42 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbtn a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav .navbtn {
+    padding: 10px 20px;
+    background-color: salmon;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+.dropdown .navbtn {
+    background-color: tomato;
+}
+
+.dropdown {
+    position: absolute;
+    display: none;  
+    z-index: 10; 
+}
+
+.navbtn:hover .dropdown {
+    display: block;
+}
+
+.navbtn {
+    position: relative;
+}
+
+
+

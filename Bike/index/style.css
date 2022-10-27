@@ -1,0 +1,304 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* css reset end */
+
+html {
+    background-image: linear-gradient(#FC5E55, #FA4083);
+    /* background-image: linear-gradient(direction, color1, color2); */
+
+}
+
+body{
+    background-image: url(../img/image-lion-background.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    /* background-attachment: fixed;  */
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    /* background image will not scroll  */
+    font-size: 1.125rem;
+
+}
+
+
+
+
+
+.container{
+    width: 1024px;
+    min-height: 300px;
+    margin: auto;
+
+}
+
+header{
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+    border-bottom: 1px solid white;
+}
+
+/* this is cards section */
+
+.cards{
+   
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card1{
+    background-image: url(../img/image-background-card1.jpg);
+    width: 30%;
+    min-height: 300px;
+}
+
+.card2{
+    background-image: url(../img/image-background-card2.jpg);
+    width: 30%;
+    min-height: 300px;
+}
+
+.card3{
+    background-image: url(../img/image-background-card3.jpg);
+    width: 30%;
+    min-height: 300px;
+}
+
+.card1, .card2, .card3{
+    background-size: cover;
+    width: 32%;
+}
+
+/* main start */
+
+main{
+    display: flex;
+    min-height: 300px;
+    align-items: center;
+}
+
+.main2 {
+    min-height: 300px;
+}
+
+.herobox1{
+    flex: 2;
+    padding-right: 6.25rem;
+
+    
+}
+
+.herobox2{
+    flex: 1;
+    
+}
+
+/* font style section */
+
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Roboto', sans-serif; */
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.25rem;
+    margin-bottom: 1rem;
+}
+
+
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.8rem;
+    margin-bottom: .5rem;
+}
+
+.cards p {
+    font-size: .85rem;
+    line-height: 1.2rem;
+    margin: 10px 30px 20px 30px;
+}
+
+i {
+    font-size: 80px;
+    padding-top: 30px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(89, 224, 62);
+    transition-duration: 0.5s;
+}
+
+.btn {
+    border-style: none;
+    background-color: white;
+    color: #FA4083;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    margin-top: 20px;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.479);
+    /* box-shadow: x y blur color; */
+}
+
+.btn:hover {
+    background-color: lightgreen;
+    transition-duration: 0.5s;
+}
+
+nav .navbtn {
+    font-family: 'Playfair Display', serif;
+    padding: 10px 20px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    position: relative;
+}
+
+.testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    
+}
+
+.txbox {
+    width: 47%;
+    border: 1px solid white;
+    box-sizing: border-box;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.txbox :last-child {
+    font-size: 0.9rem;
+    padding-left: 20px;
+    
+}
+
+/* drop down list section */
+
+.dropdownlist {
+    display: none;
+    position: absolute;
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+.navbtn:hover .dropdownlist {
+    display: block;
+}
+
+.dropdownlist .navbtn {
+    background-color: white;
+    width: 120px;
+    border-bottom: 1px solid black;
+}
+
+.dropdownlist .navbtn a {
+    color: #FA4083;
+}
+
+.inputwrapper {
+    margin-bottom: 20px;
+}
+
+input[type=text], input[type=email], textarea {
+    padding: 12px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.85rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.newline {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form {
+    margin: 40px 0px;
+}
+
+.contact {
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

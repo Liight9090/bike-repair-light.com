@@ -1,0 +1,9 @@
+rem mean root of the default size of a font which is 
+16px.
+
+rem can scale bigger as we change the font size in 
+google chrome
+=========================================
+
+px is a fixed-size which cannot change. it will remain
+to its size nothing can change it.

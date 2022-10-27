@@ -1,0 +1,6 @@
+-box-sizing border box allow padding add height but not
+width.
+
+-relative position keep element in workflow of document. (element in order throught document flow).
+
+

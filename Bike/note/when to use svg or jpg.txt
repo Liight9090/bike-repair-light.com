@@ -1,0 +1,7 @@
+Scalable Vector Graphic(svg): will remain in good condition
+even we zoom in to see the image close up.
+logo or icon prefer to be svg.
+=====================================
+jpeg is for an image with load of color and no transparency background
+=====================================
+png is with a transparency background
